@@ -1,5 +1,5 @@
 # Sulphur
-Sulphur botnet writen in C++
+Sulphur botnet written in C++
 
 Competitor of [Marlborge for C++](https://github.com/PR3C14D0/Marlborge-Reloaded)
 
