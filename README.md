@@ -1,6 +1,8 @@
 # Sulphur
 ![sulphur logo](sulphur.png)
 
+(My transliteration was bad in that image, but i can't recover the original project to fix it D:)
+
 Sulphur botnet written in C++
 
 Competitor of [Marlborge for C++](https://github.com/PR3C14D0/Marlborge-Reloaded)
