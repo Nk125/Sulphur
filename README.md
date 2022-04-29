@@ -27,4 +27,6 @@ If you deactivate the notifications, doesn't show anything when a client connect
 You can set up that option if you have a large botnet or the notifications annoy you
 
 ### Requirements
-libssl and libcrypto required by client (to enable HTTPS conns), or build/download OpenSSL for Windows (You can download precompiled binaries)
+libssl and libcrypto required by client (to enable HTTPS requests), or build/download OpenSSL for Windows (You can download precompiled binaries)
+
+P.S. There's already static .libs in /lib compiled by me
