@@ -10,4 +10,4 @@ Competitor of [Marlborge for C++](https://github.com/PR3C14D0/Marlborge-Reloaded
 Fixes issues and add more functionality + best practices (char[1024] DISALLOWED HERE!!)
 
 ### Requirements
-libssl and libcrypto required by client (to enable HTTPS conns), and for client & server, OpenSSL can be either static or DLL
+libssl and libcrypto required by client (to enable HTTPS conns), or build/download OpenSSL for Windows (You can download precompiled binaries)
