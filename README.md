@@ -11,6 +11,11 @@ Competitor of [Marlborge for C++](https://github.com/PR3C14D0/Marlborge-Reloaded
 
 Fixes issues and add more functionality + best practices (char[1024] DISALLOWED HERE!!)
 
+Client & Server require at least 1 Visual C++ Redistributable Package to Run
+(vcruntime and msvcp)
+
+You can remove the administrator perms in Client manifest.
+
 ## Server UI
 Initial UI
 
