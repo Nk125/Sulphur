@@ -35,3 +35,15 @@ You can set up that option if you have a large botnet or the notifications annoy
 libssl and libcrypto required by client (to enable HTTPS requests), or build/download OpenSSL for Windows (You can download precompiled binaries)
 
 P.S. There's already static .libs in /lib compiled by me
+
+## WARNING!
+
+The libs included precompiled by me are with OpenSSL 1.1.1m MDx32, compile your own libs if you compile to/with;
+
+  * x64 or ARM CPUs
+
+  * MultiThread Compilations
+
+  * Static Compilations
+
+  * OpenSSL 3.0 Headers
