@@ -9,10 +9,10 @@ Sulphur botnet written in C++
 
 Competitor of [Marlborge for C++](https://github.com/PR3C14D0/Marlborge-Reloaded)
 
-Fixes issues and add more functionality + best practices (char[1024] DISALLOWED HERE!!)
+Fixes issues and add more functionality + best practices (char[1024] FORBIDDEN HERE!!)
 
 Client & Server require at least 1 Visual C++ Redistributable Package to Run
-(vcruntime and msvcp)
+(vcruntime and msvcp), or compile with /MT (but precompiled libs won't work)
 
 You can remove the administrator perms in Client manifest.
 
