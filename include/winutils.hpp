@@ -170,34 +170,34 @@ namespace nk125 {
     // auto duhh = getFuncFromDLL("Mysuperdll.dll", "?duh@@", void (*duh)());
     // if (duhh == NULL) ExitProcess(1);
     // duhh();
-    auto getFuncFromDll = [](std::string obj_dll, std::string func_name, auto func_ptr) -> FARPROC {
-        HMODULE Dll = LoadLibrary(TEXT(obj_dll.c_str()));
-        func_ptr Func;
+    //auto getFuncFromDll = [](std::string obj_dll, std::string func_name, auto func_ptr) -> FARPROC {
+    //    HMODULE Dll = LoadLibrary(TEXT(obj_dll.c_str()));
+    //    func_ptr Func;
 
-        if (Dll != NULL) {
-            Func = (func_ptr) GetProcAddress(Dll, func_name.c_str());
-        }
-        else {
-            Func = NULL;
-        }
+    //    if (Dll != NULL) {
+    //        Func = (func_ptr) GetProcAddress(Dll, func_name.c_str());
+    //    }
+    //    else {
+    //        Func = NULL;
+    //    }
 
-        FreeLibrary(Dll);
-        return Func;
-    };
+    //    FreeLibrary(Dll);
+    //    return Func;
+    //};
 
-    // Same as above but this searches in System32 for the DLL
-    auto getFuncFromSysDll = [](std::string obj_dll, std::string func_name, auto func_ptr) -> FARPROC {
-        HMODULE Dll = LoadLibraryExA(TEXT(obj_dll.c_str()), NULL, LOAD_LIBRARY_SEARCH_SYSTEM32);
-        func_ptr Func;
+    //// Same as above but this searches in System32 for the DLL
+    //auto getFuncFromSysDll = [](std::string obj_dll, std::string func_name, auto func_ptr) -> FARPROC {
+    //    HMODULE Dll = LoadLibraryExA(TEXT(obj_dll.c_str()), NULL, LOAD_LIBRARY_SEARCH_SYSTEM32);
+    //    func_ptr Func;
 
-        if (Dll != NULL) {
-            Func = (func_ptr) GetProcAddress(Dll, func_name.c_str());
-        }
-        else {
-            Func = NULL;
-        }
+    //    if (Dll != NULL) {
+    //        Func = (func_ptr) GetProcAddress(Dll, func_name.c_str());
+    //    }
+    //    else {
+    //        Func = NULL;
+    //    }
 
-        FreeLibrary(Dll);
-        return Func;
-    };
+    //    FreeLibrary(Dll);
+    //    return Func;
+    //};
 }
