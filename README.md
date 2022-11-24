@@ -9,6 +9,8 @@ Sulphur botnet written in C++
 
 Competitor of [Marlborge for C++](https://github.com/PR3C14D0/Marlborge-Reloaded)
 
+(Made first as a joke with him and me, lol)
+
 Fixes issues and add more functionality + best practices (char[1024] FORBIDDEN HERE!!)
 
 Tested under Windows 8.1 x64
