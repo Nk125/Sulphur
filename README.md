@@ -3,6 +3,8 @@
 
 (My transliteration was bad in that image, but i can't recover the original project to fix it D:)
 
+Remember to extract all .zips!
+
 ## Info
 
 Sulphur botnet written in C++
@@ -37,7 +39,7 @@ You can set up that option if you have a large botnet or the notifications annoy
 
 ### Requirements
 
-Extract all .zip in their respective folder!
+Extract all .zip in their respective folder! (in the root folder, /include and /include/stealer)
 
 libssl and libcrypto required by client (to enable HTTPS requests), or build/download OpenSSL for Windows (You can download precompiled binaries)
 
