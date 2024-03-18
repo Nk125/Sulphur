@@ -9,7 +9,7 @@ Remember to extract all .zips!
 
 Sulphur botnet written in C++
 
-Competitor of [Marlborge for C++](https://github.com/PR3C14D0/Marlborge-Reloaded)
+Competitor of [Marlborge for C++](https://github.com/PR3C14D0/Marlborge)
 
 (Made first as a joke with him and me, lol)
 
